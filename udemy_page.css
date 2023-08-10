@@ -75,7 +75,7 @@
 
 .search {
   margin-left: 15px;
-  width: 500px;
+  width: 700px;
   height: 3.5rem;
   border: 1px solid #1c1d1f;
   border-radius: 9999px;
@@ -83,7 +83,20 @@
   padding: 0 2.4rem;
   font-size: 1.2rem;
 }
+.inp {
+  position: relative;
+}
 
+.inp:after {
+  content: "";
+  font-family: FontAwesome;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  display: block;
+  z-index: 10;
+  color: #bdbdbd;
+}
 nav {
   text-align: center;
   padding: 40px 0 0;
@@ -170,11 +183,13 @@ nav a {
   padding: 20px;
   font-family: "Borel", cursive;
   font-family: "Inconsolata", monospace;
+  font-family: "Inter", sans-serif;
   font-family: "Oswald", sans-serif;
   font-family: "Quicksand", sans-serif;
   font-family: "Raleway", sans-serif;
   font-family: "REM", sans-serif;
   font-family: "Roboto", sans-serif;
+  font-family: "Ruwudu", serif;
 }
 
 .large-square-button {
