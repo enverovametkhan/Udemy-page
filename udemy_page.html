@@ -13,6 +13,12 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Borel&family=Inconsolata:wght@200&family=Oswald:wght@200&family=Quicksand:wght@300&family=REM&family=Raleway:wght@100&family=Roboto:ital,wght@1,900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div class="udemy">
@@ -21,7 +27,7 @@
           <div class="top_bar_content">
             <div class="top_bar_text">
               <span class="text"
-                ><strong>Last day to save </strong> | Future-ready courses start
+                ><strong>Last day to save</strong> | Future-ready courses start
                 at $16.99.<br /><br
               /></span>
               <span class="timer-countdown"
@@ -34,11 +40,69 @@
       <div class="udemy_categories">
         <div class="categories_container">
           <img src="logo-udemy.svg" alt="Udemy" />
-          <div class="categories">
-            <button type="button">Categories</button>
-          </div>
+          <nav>
+            <ul class="topmenu">
+              <li>
+                <a href="#" class="down">Categories</a>
+                <ul class="submenu">
+                  <li><a href="#">Development</a></li>
+                  <li><a href="#">Business</a></li>
+                  <li><a href="#">Finance & Accounting</a></li>
+                  <li><a href="#">IT & Software</a></li>
+                  <li><a href="#">Office Productivity</a></li>
+                  <li><a href="#">Personal Development</a></li>
+                  <li><a href="#">Design</a></li>
+                  <li><a href="#">Marketing</a></li>
+                  <li><a href="#">Lifestyle</a></li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
           <div class="search-container">
-            <input type="search" class="search" placeholder="Search for anything" />
+            <input
+              type="search"
+              class="search"
+              placeholder="Search for anything"
+            />
+          </div>
+          <nav>
+            <ul class="topmenu">
+              <li>
+                <a href="#" class="down">Udemy Business</a>
+                <ul class="submenu udemy-business">
+                  <li>
+                    <p>
+                      <strong
+                        >Get your team access to over 22,000 top Udemy courses,
+                        anytime, anywhere.</strong
+                      >
+                    </p>
+                  </li>
+                  <button class="large-square-button">
+                    Try Udemy Business
+                  </button>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+          <nav>
+            <ul class="topmenu">
+              <li>
+                <a href="#" class="down">Teach on Udemy</a>
+                <ul class="submenu udemy-business">
+                  <li>
+                    <p>
+                      <strong
+                        >Turn what you know into an opportunity and reach
+                        millions around the world.</strong
+                      >
+                    </p>
+                  </li>
+                  <button class="large-square-button">Learn more</button>
+                </ul>
+              </li>
+            </ul>
+          </nav>
         </div>
       </div>
     </div>

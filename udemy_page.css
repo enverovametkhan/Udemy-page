@@ -22,6 +22,7 @@
   position: relative;
   width: 100%;
   justify-content: center;
+  padding: 10px;
 }
 
 .top_bar_text {
@@ -47,11 +48,13 @@
   align-items: center;
   justify-content: space-between;
   margin-top: 60px;
+  padding: 30px;
 }
 
 .categories_container {
   display: flex;
   align-items: center;
+  justify-content: space-between; /* Add this line */
 }
 
 .categories_container img {
@@ -62,27 +65,125 @@
   margin-left: 10px;
 }
 
-.categories button {
-  background-color: transparent;
-  border: 0;
-}
-
 .search-container {
   flex-grow: 1;
   display: flex;
-  width: 100%;
   align-items: center;
-  height: 100%;
+  justify-content: flex-end;
+  margin-top: 20px;
 }
 
 .search {
   margin-left: 15px;
-  width: 100%;
-  height: 2.5rem;
+  width: 500px;
+  height: 3.5rem;
   border: 1px solid #1c1d1f;
   border-radius: 9999px;
   background-color: #f7f9fa;
   padding: 0 2.4rem;
   font-size: 1.2rem;
-  margin: 0 1.2rem;
+}
+
+nav {
+  text-align: center;
+  padding: 40px 0 0;
+  margin-bottom: 15px;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+nav a {
+  text-decoration: none;
+  display: block;
+  color: #222;
+}
+.topmenu > li {
+  display: inline-block;
+  position: relative;
+}
+.topmenu > li > a {
+  position: relative;
+  padding: 10px 15px;
+
+  font-size: 1em;
+  line-height: 1;
+  letter-spacing: 3px;
+}
+.topmenu > li > a:before {
+  content: "";
+  position: absolute;
+  z-index: 5;
+  left: 50%;
+  top: 100%;
+  width: 10px;
+  height: 10px;
+  background: white;
+  border-radius: 50%;
+  transform: translate(-50%, 20px);
+  opacity: 0;
+  transition: 0.3s;
+}
+.topmenu li:hover a:before {
+  transform: translate(-50%, 0);
+  opacity: 1;
+}
+.submenu {
+  position: absolute;
+  z-index: 4;
+  left: 50%;
+  top: 100%;
+  width: 150px;
+  padding: 15px 0 15px;
+  margin-top: 5px;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+  visibility: hidden;
+  opacity: 0;
+  transform: translate(-50%, 20px);
+  transition: 0.3s;
+}
+.topmenu > li:hover .submenu {
+  visibility: visible;
+  opacity: 1;
+  transform: translate(-50%, 0);
+}
+.submenu a {
+  font-size: 11px;
+  letter-spacing: 1px;
+  padding: 5px 10px;
+  transition: 0.3s linear;
+}
+.submenu a:hover {
+  background: #e8e8e8;
+}
+
+.down:hover {
+  color: #ad33ff;
+}
+
+.submenu.udemy-business {
+  width: 300px;
+  padding: 20px;
+  font-family: "Borel", cursive;
+  font-family: "Inconsolata", monospace;
+  font-family: "Oswald", sans-serif;
+  font-family: "Quicksand", sans-serif;
+  font-family: "Raleway", sans-serif;
+  font-family: "REM", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+.large-square-button {
+  margin-top: 15px;
+  width: 100%;
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  background-color: black;
+  color: #fff;
+  cursor: pointer;
 }
