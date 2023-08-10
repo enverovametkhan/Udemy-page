@@ -10,9 +10,9 @@
 
 .top_bar {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08), 0 4px 12px rgba(0, 0, 0, 0.08);
-  width: 100%;
   display: flex;
-  justify-content: flex-end;
+  position: absolute;
+  width: 100%;
 }
 
 .top_bar_container {
@@ -21,7 +21,6 @@
   display: flex;
   position: relative;
   width: 100%;
-  align-items: flex-end;
   justify-content: center;
 }
 
@@ -39,12 +38,56 @@
 .top_bar_content {
   display: flex;
   justify-content: space-between;
+}
+
+.udemy_categories {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08), 0 4px 12px rgba(0, 0, 0, 0.08);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+
+.categories_container {
+  display: flex;
   align-items: center;
 }
 
-.top_bar_button {
-  justify-items: flex-end;
+.categories_container img {
+  margin-top: 10px;
+  height: 50px;
+  vertical-align: middle;
+  margin-right: 1rem;
+}
 
-  color: #1c1d1f;
-  margin: 0.8rem;
+.categories,
+.form {
+  display: flex;
+  align-items: center;
+}
+
+.form {
+  flex-grow: 1;
+  height: 2rem;
+  border: 1px solid #1c1d1f;
+  border-radius: 9999px;
+  background-color: #f7f9fa;
+  margin: 0 1.2rem;
+  display: flex;
+}
+
+.label {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding-bottom: 0.8rem;
+  min-height: 2.8rem;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 0 2.4rem 0 0;
 }
