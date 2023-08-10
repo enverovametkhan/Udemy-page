@@ -59,6 +59,12 @@
   height: 50px;
   vertical-align: middle;
   margin-right: 1rem;
+  margin-left: 10px;
+}
+
+.categories button {
+  background-color: transparent;
+  border: 0;
 }
 
 .categories,
