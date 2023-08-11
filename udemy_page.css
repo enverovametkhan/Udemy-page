@@ -207,3 +207,85 @@ nav a {
   width: 100%;
   display: block;
 }
+
+.button {
+  margin-top: 15px;
+  width: 100%;
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+
+  color: #fff;
+  cursor: pointer;
+}
+
+.submenu.udemy-business li.notification-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.submenu.udemy-business .notification-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.submenu.udemy-business h1 {
+  margin: 0;
+}
+.submenu.udemy-business a {
+  color: #ad33ff;
+}
+
+.submenu.udemy-business .settings-link {
+  display: block;
+  padding: 5px 20px;
+  font-size: 15px;
+  letter-spacing: 1px;
+  transition: 0.3s linear;
+}
+
+.submenu.udemy-business p {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.submenu.udemy_business {
+  width: 350px;
+  padding: 20px;
+}
+
+.submenu.udemy_business li.notification_content {
+  display: flex;
+  flex-direction: column;
+}
+
+.submenu.udemy_business .notification_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.submenu.udemy_business h1 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.submenu.udemy_business .settings_link {
+  display: block;
+  padding: 5px 20px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  transition: 0.3s linear;
+  color: #ad33ff;
+  font-weight: bold;
+}
+
+.submenu.udemy_business p {
+  margin: 0;
+  margin-top: 20px;
+}
+
+.topmenu > li > a:hover i.fa-xl {
+  color: #ad33ff !important;
+}
