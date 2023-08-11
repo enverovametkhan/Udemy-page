@@ -194,18 +194,23 @@ nav a {
   justify-content: space-between;
 }
 
+.learning_type img {
+  margin-bottom: 10px;
+}
 .learning_type li ul li img {
   width: 50px;
 }
-.learning_type img {
-  width: 50px;
-  margin-right: 100px;
-}
 
 .learning_type li ul li a {
-  border-bottom: 1px solid #e9e4e4;
   width: 100%;
-  display: block;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #e9e4e4;
+}
+
+.learning_type li ul li p {
+  margin: 0;
+  margin-left: 10px;
 }
 
 .button {
