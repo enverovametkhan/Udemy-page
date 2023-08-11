@@ -191,7 +191,7 @@ nav a {
   padding: 10px 0;
   display: flex;
   align-items: center;
-  justify-content: space-between; /* Добавляем выравнивание */
+  justify-content: space-between;
 }
 
 .learning_type li ul li img {
