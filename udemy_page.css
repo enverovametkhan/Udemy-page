@@ -196,20 +196,14 @@ nav a {
 
 .learning_type li ul li img {
   width: 50px;
-  margin-left: auto;
+}
+.learning_type img {
+  width: 50px;
+  margin-right: 100px;
 }
 
 .learning_type li ul li a {
   border-bottom: 1px solid #e9e4e4;
-  display: block;
-  padding-left: 15px;
-}
-
-.learning_type li ul li a:before {
-  content: "";
-
-  left: 0;
   width: 100%;
-  height: 2px;
-  background-color: #e9e4e4;
+  display: block;
 }
