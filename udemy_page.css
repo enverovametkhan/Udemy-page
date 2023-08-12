@@ -295,26 +295,38 @@ nav a {
   color: #ad33ff !important;
 }
 
+.profile {
+  cursor: pointer;
+}
 .submenu {
   width: 300px;
-  padding: 10px;
-
+  background-color: white;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
   list-style: none;
   margin: 0;
   padding: 0;
+  text-align: left;
+  cursor: pointer;
 }
+
 .submenu .group {
   margin-bottom: 10px;
   border-bottom: 1px solid #ccc;
   padding-bottom: 10px;
+  margin-left: 15px;
+}
+
+.submenu li {
+  margin-bottom: 5px;
 }
 
 .submenu a {
   text-decoration: none;
   color: #222;
   font-size: 14px;
+  padding: 5px 0;
+  display: block;
 }
 
 .pro_button,
@@ -322,8 +334,10 @@ nav a {
   font-size: 18px;
   color: #030303;
   margin-top: 10px;
+  background-color: transparent;
+  border: none;
 }
 
-.submenu :hover {
+.profile :hover {
   color: #ad33ff;
 }
