@@ -294,3 +294,27 @@ nav a {
 .topmenu > li > a:hover i.fa-xl {
   color: #ad33ff !important;
 }
+
+.profile li:hover ul {
+  width: 220px;
+  padding: 10px;
+}
+
+.profile li ul li {
+  padding: 10px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.profile li ul li a {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #e9e4e4;
+}
+
+.profile li ul li p {
+  margin: 0;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
