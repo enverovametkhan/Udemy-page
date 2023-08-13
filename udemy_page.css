@@ -7,6 +7,7 @@
 .udemy {
   display: flex;
   font-family: "Quicksand", sans-serif;
+  min-width: 100vh;
 }
 
 .top_bar {
@@ -75,8 +76,8 @@
 }
 
 .search {
-  margin-left: 15px;
-  width: 700px;
+  width: 20rem;
+
   height: 3.5rem;
   border: 1px solid #1c1d1f;
   border-radius: 9999px;
@@ -167,6 +168,9 @@ nav a {
   color: #ad33ff;
 }
 
+.udemy-business topmenu {
+  margin-right: 50px;
+}
 .submenu.udemy-business {
   width: 300px;
   padding: 20px;
@@ -345,4 +349,17 @@ nav a {
 
 .profile :hover {
   color: #ad33ff;
+}
+
+.main_content {
+  flex-grow: 1;
+  background-color: #030303;
+  padding: 20px;
+  color: #fff;
+}
+
+@media screen and (max-width: 1024px) {
+  .search {
+    max-width: 60rem;
+  }
 }
