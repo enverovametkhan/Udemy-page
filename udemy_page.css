@@ -386,7 +386,8 @@ nav a {
   display: flex;
   gap: 10px;
   color: rgb(140, 140, 204);
-  margin-bottom: 70px;
+  margin-top: -20px; /* Add negative margin to lift ul */
+  margin-bottom: 20px;
 }
 .main_ul li {
   margin-right: 10px;
@@ -399,7 +400,7 @@ nav a {
   color: inherit;
 }
 
-h1,
+.main_content h1,
 p {
-  margin-bottom: 5px;
+  margin-bottom: 20px;
 }
