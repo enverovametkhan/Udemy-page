@@ -381,7 +381,17 @@ nav a {
   padding-left: 350px;
 }
 
-.main_content p {
-  flex: 1;
-  margin: 0;
+.main_ul {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+.main_ul li {
+  margin-right: 10px;
+}
+.main_ul li:last-child {
+  margin-right: 0;
+}
+.main_ul a {
+  text-decoration: none;
 }
