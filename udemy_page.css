@@ -380,3 +380,8 @@ nav a {
   margin-top: 210px;
   padding-left: 350px;
 }
+
+.main_content p {
+  flex: 1;
+  margin: 0;
+}
