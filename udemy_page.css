@@ -386,6 +386,7 @@ nav a {
   display: flex;
   gap: 10px;
   color: rgb(140, 140, 204);
+  margin-bottom: 70px;
 }
 .main_ul li {
   margin-right: 10px;
@@ -396,4 +397,9 @@ nav a {
 .main_ul a {
   text-decoration: none;
   color: inherit;
+}
+
+h1,
+p {
+  margin-bottom: 5px;
 }
