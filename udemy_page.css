@@ -419,7 +419,8 @@ nav a {
   position: absolute;
   flex-direction: column;
   align-items: center;
-  height: 600px;
+
+  height: 650px;
   width: 250px;
   margin: 0;
   margin-top: 250px;
@@ -431,4 +432,27 @@ nav a {
   height: 200px;
   width: 250px;
   margin-top: -20px;
+}
+
+.side_bar_container h3 {
+  position: relative;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.side_bar_container p {
+  font-size: 0.7rem;
+  margin-top: 10px;
+}
+
+.side_bar_container h4 {
+  margin-top: 30px;
+}
+
+.side_bar_container ul {
+  margin-top: 10px;
+}
+
+.side_bar_menu li {
+  margin-bottom: 10px;
 }
