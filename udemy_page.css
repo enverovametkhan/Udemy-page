@@ -416,10 +416,14 @@ nav a {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08), 0 4px 12px rgba(0, 0, 0, 0.08);
   background-color: #fff;
   display: flex;
+  position: absolute;
   flex-direction: column;
-  width: 200px;
-  margin-left: 900px;
-  margin-bottom: 900px;
+  align-items: center;
+  height: 600px;
+  width: 300px;
+  margin: 0;
+  margin-top: 250px;
+  margin-left: 1300px;
 }
 
 .side_bar_container img {
