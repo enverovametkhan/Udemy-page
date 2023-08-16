@@ -466,10 +466,12 @@ nav a {
   flex-direction: column;
 
   padding: 20px;
-  border: 1px solid rgb(83, 82, 82);
+  border: 1px solid rgb;
+
   position: absolute;
   width: 100%;
   border: 1px solid rgb(83, 82, 82);
+
   justify-content: center;
   max-width: 60%;
   padding-left: 300px;
