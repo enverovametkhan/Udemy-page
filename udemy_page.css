@@ -458,36 +458,40 @@ nav a {
 }
 
 .learn_box {
-  margin-top: 340px;
+  margin-top: 330px;
   display: flex;
 
   font-family: "Quicksand", sans-serif;
   margin-bottom: 10px;
   flex-direction: column;
 
-  padding: 20px;
+  padding: 20px 1px;
   border: 1px solid rgb;
 
-  position: absolute;
   width: 100%;
-  border: 1px solid rgb(83, 82, 82);
+  border: 1px solid rgb(131, 129, 129);
 
   justify-content: center;
-  max-width: 60%;
-  padding-left: 300px;
+  max-width: 40%;
+  margin-left: 300px;
+  padding: 30px;
 }
 
 .learn_box h1 {
   font-weight: bold;
 }
 
-.learn_ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-  text-align: left;
+.columns {
+  display: flex;
+  gap: 20px;
   margin-top: 20px;
 }
-.learn_ul li {
-  margin-bottom: 10px;
+
+.column {
+  flex: 1;
+  padding: 0 10px;
+}
+
+.column li {
+  margin: 10px 0;
 }
