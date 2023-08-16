@@ -378,7 +378,7 @@ nav a {
   height: 300px;
   justify-content: center;
   margin-top: 210px;
-  padding-left: 350px;
+  padding-left: 250px;
 }
 
 .main_ul {
@@ -455,4 +455,11 @@ nav a {
 
 .side_bar_menu li {
   margin-bottom: 10px;
+}
+
+.learn_box {
+  margin-top: 400px;
+  display: flex;
+  justify-content: start;
+  font-family: "Quicksand", sans-serif;
 }
