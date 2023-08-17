@@ -512,3 +512,14 @@ nav a {
   margin-left: 300px;
   padding: 30px;
 }
+
+.coding img {
+  width: 200px;
+  height: 150px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08), 0 4px 12px rgba(0, 0, 0, 0.08);
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
