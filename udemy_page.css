@@ -514,3 +514,14 @@ nav a {
 .coding p {
   margin-top: 20px;
 }
+
+.coding button.see_demo {
+  background-color: transparent;
+  color: #ad33ff;
+  border: none;
+  text-decoration: underline;
+  cursor: pointer;
+  margin-top: 10px;
+
+  margin-left: -10px;
+}
