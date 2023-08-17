@@ -507,12 +507,10 @@ nav a {
 .coding img {
   width: 400px;
   height: 300px;
+  margin-left: auto;
+  margin-top: -120px;
 }
 
 .coding p {
   margin-top: 20px;
-}
-
-.coding br {
-  display: none; /* Скрываем теги <br> */
 }
