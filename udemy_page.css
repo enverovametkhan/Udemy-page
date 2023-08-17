@@ -515,11 +515,12 @@ nav a {
   margin-top: 20px;
 }
 
-.coding button.see_demo {
+.coding button {
   background-color: transparent;
   color: #ad33ff;
   border: none;
   text-decoration: underline;
   cursor: pointer;
   margin-top: 50px;
+  border: 1px red solid;
 }
