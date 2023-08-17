@@ -500,6 +500,8 @@ nav a {
   margin-left: 300px;
   padding: 30px;
   margin-top: 30px;
+  position: relative;
+  flex-direction: column;
 }
 
 .coding img {
@@ -508,5 +510,9 @@ nav a {
 }
 
 .coding p {
-  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.coding br {
+  display: none; /* Скрываем теги <br> */
 }
