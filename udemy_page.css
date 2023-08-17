@@ -466,7 +466,6 @@ nav a {
   flex-direction: column;
 
   padding: 20px 1px;
-  border: 1px solid rgb;
 
   width: 100%;
   border: 1px solid rgb(131, 129, 129);
@@ -504,10 +503,9 @@ nav a {
   flex-direction: column;
 
   padding: 20px 1px;
-  border: 1px solid rgb;
+
   background-color: #f7f9fa;
   width: 100%;
-  border: 1px solid rgb(131, 129, 129);
 
   justify-content: center;
   max-width: 40%;
