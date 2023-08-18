@@ -522,5 +522,6 @@ nav a {
   text-decoration: underline;
   cursor: pointer;
   margin-top: 50px;
-  border: 1px red solid;
+
+  margin-right: 500px;
 }
