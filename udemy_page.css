@@ -525,3 +525,17 @@ nav a {
 
   margin-right: 500px;
 }
+
+.course_content {
+  display: flex;
+  font-family: "Quicksand", sans-serif;
+  padding: 20px 1px;
+  background-color: #f7f9fa;
+  max-width: 40%;
+  margin-left: 300px;
+  padding: 30px;
+  margin-top: 30px;
+  position: relative;
+  flex-direction: column;
+  height: 100%;
+}
