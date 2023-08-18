@@ -552,20 +552,22 @@ nav a {
   margin-right: -500px;
 }
 
-.content_dropdown {
+.course_dropdown {
   position: relative;
   display: inline-block;
 }
 
-.content-dropdown-button {
+.course-dropdown-button {
   background-color: #007bff;
   color: white;
   border: none;
   padding: 8px 16px;
   cursor: pointer;
+  text-decoration: none;
+  margin-bottom: -120px;
 }
 
-.content-dropdown-content {
+.course-dropdown-content {
   display: none;
   position: absolute;
   background-color: white;
@@ -573,12 +575,10 @@ nav a {
   z-index: 1;
 }
 
-.content-dropdown-content a {
+#dropdownContent:target {
   display: block;
-  padding: 8px 16px;
-  text-decoration: none;
-  color: black;
 }
-.content-dropdown-content {
-  display: block;
+
+#dropdownContent:target ~ .course-dropdown-button {
+  display: none;
 }
