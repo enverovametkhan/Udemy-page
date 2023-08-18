@@ -539,3 +539,15 @@ nav a {
   flex-direction: column;
   height: 100%;
 }
+
+.course_content p {
+  margin-top: 20px;
+}
+
+.course_content button {
+  background-color: transparent;
+  color: #ad33ff;
+  border: none;
+  margin-top: -20px;
+  margin-right: -500px;
+}
