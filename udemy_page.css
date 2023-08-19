@@ -566,6 +566,29 @@ nav a {
   border: 1px solid rgb(131, 129, 129);
 }
 
-.content_display p {
-  margin-left: 500px;
+.lecture {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc; /* Добавление линии под блоком .lecture */
+  padding-bottom: 10px;
+}
+
+.lecture h3,
+.lecture p {
+  margin: 0;
+}
+
+.lecture h3 {
+  order: 1;
+  margin-bottom: 10px;
+  width: 60%;
+}
+
+.lecture p {
+  order: 2;
+  width: 40%;
+  text-align: right;
 }
