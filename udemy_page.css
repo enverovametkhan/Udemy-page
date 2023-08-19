@@ -530,8 +530,7 @@ nav a {
   display: flex;
   font-family: "Quicksand", sans-serif;
   padding: 20px 1px;
-
-  max-width: 45%;
+  max-width: 40%;
   margin-left: 300px;
   padding: 30px;
   margin-top: 30px;
@@ -554,5 +553,13 @@ nav a {
 .content_display {
   height: 900px;
   background-color: #f7f9fa;
-  margin-top: 10px;
+
+  display: flex;
+  font-family: "Quicksand", sans-serif;
+  padding: 20px 1px;
+  max-width: 40%;
+  margin-left: 300px;
+  padding: 30px;
+  position: relative;
+  flex-direction: column;
 }
