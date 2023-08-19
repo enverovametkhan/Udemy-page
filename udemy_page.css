@@ -530,14 +530,13 @@ nav a {
   display: flex;
   font-family: "Quicksand", sans-serif;
   padding: 20px 1px;
-  background-color: #f7f9fa;
-  max-width: 40%;
+
+  max-width: 45%;
   margin-left: 300px;
   padding: 30px;
   margin-top: 30px;
   position: relative;
   flex-direction: column;
-  height: 900px;
 }
 
 .course_content p {
@@ -550,4 +549,10 @@ nav a {
   border: none;
   margin-top: -20px;
   margin-right: -500px;
+}
+
+.content_display {
+  height: 900px;
+  background-color: #f7f9fa;
+  margin-top: 10px;
 }
