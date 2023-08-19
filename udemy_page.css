@@ -465,7 +465,7 @@ nav a {
   flex-direction: column;
   padding: 20px 1px;
   width: 100%;
-  border: 1px solid rgb(131, 129, 129);
+  border: 1px solid #ccc;
   justify-content: center;
   max-width: 40%;
   margin-left: 300px;
@@ -551,7 +551,7 @@ nav a {
 }
 
 .content_display {
-  height: 900px;
+  height: 707px;
   background-color: #f7f9fa;
 
   display: flex;
@@ -563,7 +563,7 @@ nav a {
   padding: 30px;
   position: relative;
   flex-direction: column;
-  border: 1px solid rgb(131, 129, 129);
+  border: 1px solid #ccc;
 }
 
 .lecture {
@@ -572,7 +572,7 @@ nav a {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 20px;
-  border-bottom: 1px solid #ccc; /* Добавление линии под блоком .lecture */
+  border-bottom: 1px solid #ccc;
   padding-bottom: 10px;
 }
 
@@ -591,4 +591,8 @@ nav a {
   order: 2;
   width: 40%;
   text-align: right;
+}
+
+.content_display button {
+  background-color: white;
 }
