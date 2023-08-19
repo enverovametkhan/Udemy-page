@@ -596,3 +596,13 @@ nav a {
 .content_display button {
   background-color: white;
 }
+
+.sections {
+  width: 770px;
+  background-color: #f7f9fa;
+  margin-left: -30px;
+  font-size: 15px;
+  height: 150px;
+  padding: 10px;
+  border: 1px solid black;
+}
