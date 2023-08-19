@@ -606,3 +606,11 @@ nav a {
   padding: 10px;
   border: 1px solid black;
 }
+
+.requirements {
+  margin-top: 100px;
+  margin-left: 300px;
+  padding: 30px;
+
+  font-family: "Quicksand", sans-serif;
+}
