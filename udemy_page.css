@@ -556,6 +556,7 @@ nav a {
 
   display: flex;
   font-family: "Quicksand", sans-serif;
+  font-size: 15px;
   padding: 20px 1px;
   max-width: 40%;
   margin-left: 300px;
@@ -563,4 +564,8 @@ nav a {
   position: relative;
   flex-direction: column;
   border: 1px solid rgb(131, 129, 129);
+}
+
+.content_display p {
+  margin-top: 30px;
 }
