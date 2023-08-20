@@ -608,11 +608,13 @@ nav a {
 }
 
 .requirements {
-  margin-top: 100px;
+  margin-top: 80px;
   margin-left: 300px;
   padding: 30px;
 
   font-family: "Quicksand", sans-serif;
 }
 
-.requirements p;
+.requirements p {
+  margin-top: 10px;
+}
