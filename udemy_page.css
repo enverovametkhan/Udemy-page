@@ -621,3 +621,11 @@ nav a {
 .requirements li {
   margin-bottom: 10px;
 }
+
+.requirements h1:first-child {
+  margin-bottom: 20px;
+}
+
+.requirements h1 + ul {
+  margin-bottom: 30px;
+}
