@@ -615,9 +615,9 @@ nav a {
   font-family: "Quicksand", sans-serif;
 }
 .requirements h1 {
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
-.requirements p {
-  margin-bottom: 15px;
+.requirements li {
+  margin-bottom: 10px;
 }
