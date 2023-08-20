@@ -379,6 +379,7 @@ nav a {
   justify-content: center;
   margin-top: 210px;
   padding-left: 250px;
+  padding-right: 200px;
 }
 
 .main_ul {
@@ -408,7 +409,6 @@ nav a {
   margin-bottom: 10px;
   margin-top: 10px;
 }
-
 .side_bar_container {
   z-index: 1;
   border-bottom: 1px solid #d1d7dc;
@@ -416,16 +416,16 @@ nav a {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08), 0 4px 12px rgba(0, 0, 0, 0.08);
   background-color: #fff;
   display: flex;
-  position: absolute;
   flex-direction: column;
   align-items: center;
-
   height: 650px;
   width: 250px;
   margin: 0;
   margin-top: 250px;
-  margin-left: 1300px;
   padding: 20px;
+  position: fixed;
+  top: 0;
+  right: 500px;
 }
 
 .side_bar_container img {
@@ -611,7 +611,7 @@ nav a {
   margin-top: 80px;
   margin-left: 300px;
   padding: 30px;
-
+  max-width: 40%;
   font-size: medium;
   font-family: "Quicksand", sans-serif;
 }
