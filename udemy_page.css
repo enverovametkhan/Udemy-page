@@ -612,6 +612,7 @@ nav a {
   margin-left: 300px;
   padding: 30px;
 
+  font-size: medium;
   font-family: "Quicksand", sans-serif;
 }
 .requirements h1 {
@@ -632,8 +633,4 @@ nav a {
 
 .requirements p + ul {
   margin-top: 30px;
-}
-
-.strong {
-  font-size: 900;
 }
