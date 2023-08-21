@@ -634,3 +634,17 @@ nav a {
 .requirements p + ul {
   margin-top: 30px;
 }
+
+.review {
+  display: flex;
+  font-family: "Quicksand", sans-serif;
+  margin-bottom: 10px;
+  flex-direction: column;
+  padding: 20px 1px;
+  width: 100%;
+  border: 1px solid #ccc;
+  justify-content: center;
+  max-width: 40%;
+  margin-left: 300px;
+  padding: 30px;
+}
