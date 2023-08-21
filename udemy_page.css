@@ -684,6 +684,7 @@ nav a {
 .review-content {
   display: flex;
   align-items: center;
+  line-height: 1.5em;
 }
 
 .review-details {
@@ -692,13 +693,8 @@ nav a {
 
 .rating {
   display: flex;
-  align-items: center;
 }
 
-.stars {
-  display: flex;
-}
-
-.rating-mini p {
-  margin-left: 25px;
+.rating p {
+  margin-left: 10px;
 }
