@@ -719,6 +719,32 @@ nav a {
   justify-content: center;
   border-radius: 50%;
   object-fit: cover;
-  width: 100px;
-  height: 100px;
+  width: 110px;
+  height: 110px;
+  float: left;
+  margin-right: 20px;
+}
+
+.instructors h3 {
+  margin-top: -15px;
+}
+
+.inst-details {
+  margin-left: 10px;
+  display: flex;
+}
+
+.inst-details p {
+  margin-left: 10px;
+
+  margin-bottom: 10px;
+}
+
+.inst-info {
+  flex-direction: column;
+  text-align: left;
+}
+
+.inst-details i {
+  margin-right: 10px;
 }
