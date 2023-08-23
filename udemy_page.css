@@ -780,7 +780,7 @@ nav a {
   height: 50px;
   background-color: transparent;
   margin-top: -30px;
-  border: 1px solid white;
+  border: 1px solid #ccc;
   color: white;
   font-size: medium;
   align-self: flex-end;
