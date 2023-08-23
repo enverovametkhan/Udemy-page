@@ -748,3 +748,21 @@ nav a {
 .inst-details i {
   margin-right: 10px;
 }
+
+.footer {
+  display: flex;
+  font-family: "Quicksand", sans-serif;
+  flex-direction: column;
+  padding: 20px 1px;
+  width: 100%;
+  background-color: #030303;
+  padding: 30px;
+  gap: 20px;
+}
+
+.footer h3 {
+  color: whitesmoke;
+}
+.footer p {
+  color: whitesmoke;
+}
