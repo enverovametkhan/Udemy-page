@@ -757,12 +757,31 @@ nav a {
   width: 100%;
   background-color: #030303;
   padding: 30px;
-  gap: 20px;
 }
 
-.footer h3 {
-  color: whitesmoke;
+.t_footer {
+  border-bottom: 1px solid whitesmoke;
+  margin-left: 15px;
+  display: flex;
+  flex-direction: column;
 }
+
+.footer h2 {
+  color: whitesmoke;
+  margin: 0;
+}
+
 .footer p {
   color: whitesmoke;
+}
+
+.t_footer button {
+  width: 150px;
+  height: 50px;
+  background-color: transparent;
+  margin-top: -30px;
+  border: 1px solid white;
+  color: white;
+  font-size: medium;
+  align-self: flex-end;
 }
