@@ -790,9 +790,12 @@ nav a {
   justify-content: space-between;
   align-items: center;
   margin-top: 20px;
+  border-top: 1px solid white;
+  width: 100%;
 }
 
 .s_footer h2 {
+  margin-top: 20px;
   color: white;
   margin-left: 15px;
 }
@@ -800,4 +803,5 @@ nav a {
 .footer_img {
   display: flex;
   align-items: center;
+  margin-top: 20px;
 }
