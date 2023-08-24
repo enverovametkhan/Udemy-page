@@ -784,3 +784,14 @@ nav a {
   font-size: medium;
   align-self: flex-end;
 }
+
+.s_footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer_img {
+  display: flex;
+  align-items: center;
+}
