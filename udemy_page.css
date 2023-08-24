@@ -791,6 +791,10 @@ nav a {
   align-items: center;
 }
 
+.s_footer h1 {
+  color: white;
+}
+
 .footer_img {
   display: flex;
   align-items: center;
