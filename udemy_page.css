@@ -809,3 +809,9 @@ nav a {
 .footer_img img {
   margin-right: 2px;
 }
+
+.t_footer {
+  margin-top: 20px;
+  padding: 10px;
+  border-top: 1px solid white;
+}
