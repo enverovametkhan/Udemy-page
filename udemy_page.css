@@ -790,7 +790,7 @@ nav a {
   justify-content: space-between;
   align-items: center;
   margin-top: 20px;
-  border-top: 1px solid white;
+
   width: 100%;
 }
 
@@ -813,7 +813,7 @@ nav a {
 .t_footer {
   margin-top: 20px;
   padding: 10px;
-  border-top: 1px solid white;
+
   width: 100%;
 }
 
