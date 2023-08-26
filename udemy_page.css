@@ -827,3 +827,21 @@ nav a {
 .t_footer a:hover {
   text-decoration: underline;
 }
+
+.tt_footer {
+  margin-top: 20px;
+  padding: 10px;
+
+  width: 100%;
+}
+
+.tt_footer a {
+  margin-top: 10px;
+  color: white;
+  text-decoration: none;
+  margin-bottom: 2px;
+}
+
+.tt_footer a:hover {
+  text-decoration: underline;
+}
