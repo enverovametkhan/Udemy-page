@@ -810,6 +810,10 @@ nav a {
   margin-right: 2px;
 }
 
+.t_container {
+  display: flex;
+}
+
 .t_footer {
   margin-top: 20px;
   padding: 10px;
